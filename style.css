@@ -11,6 +11,7 @@
  */
 
 
+@import url(//fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic,300,500,300italic,500italic);
 
 a { 
 	color: #ad0800;
@@ -347,7 +348,7 @@ article.sticky .featured-post {
 .entry-content,
 .entry-summary,
 .mu_register {
-	line-height: 1.714285714;
+	###line-height###: 1.714285714;
 }
 .entry-content h1,
 .comment-content h1,
@@ -492,10 +493,10 @@ article.sticky .featured-post {
 }
 .entry-content address,
 .comment-content address {
-	display: block;
-	line-height: 1.714285714;
-	margin: 0 0 24px;
-	margin: 0 0 1.714285714rem;
+display: block;
+line-height: 1.50;
+margin: 0 0 24px;
+margin: 0 0 0.14285714rem;
 }
 img.alignleft {
 	margin: 12px 24px 12px 0;
@@ -1197,4 +1198,70 @@ padding-left: 10px;
 	-webkit-transform: rotate(180deg);
 	-o-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
+}
+
+body.page-template-page-templatesfull-width-php #content {
+max-width: 1000px;
+float: left;
+margin-top: 10px;
+}
+
+body.page-id-191 #content, body.page-id-326 #content {
+width: 990px;
+}
+
+
+body.page-template-page-templatesfull-width-php .entry-header {
+display: none;
+}
+
+body.page-template-page-templatesfull-width-php .entry-content p, body.page-template-page-templatesfull-width-php .entry-summary p, body.page-template-page-templatesfull-width-php .comment-content p, body.page-template-page-templatesfull-width-php .mu_register p {
+margin: 0 0 0;
+}
+
+.jumbotron {
+margin: 42px 0 60px 0;
+text-align: center;
+}
+
+.jumbotron h1 {
+font-size: 72px;
+line-height: 1;
+}
+
+.jumbotron .lead {
+font-size: 24px;
+line-height: 1.25;
+}
+.lead {
+margin-bottom: 20px;
+font-size: 21px;
+font-weight: 200;
+line-height: 30px;
+}
+
+.jumbotron .btn {
+font-size: 21px;
+padding: 14px 24px;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+  color: #ffffff!important;
+  background-color: #bd362f;
+  *background-color: #a9302a;
+}
+
+.social-links {
+display: inline-block;
+color: #333;
+white-space: nowrap;
+}
+.social-links > img {
+width: 128px;
+height: 128px;
 }
