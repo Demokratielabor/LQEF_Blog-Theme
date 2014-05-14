@@ -1265,3 +1265,7 @@ white-space: nowrap;
 width: 128px;
 height: 128px;
 }
+
+.iban:after {
+	content: " ";
+}
