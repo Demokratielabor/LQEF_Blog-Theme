@@ -1191,15 +1191,6 @@ border-left: 1px solid #eeeeee;
 padding-left: 10px;
 }
 
-#copyleft {
-	display: inline-block;
-	transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-webkit-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-}
-
 body.page-template-page-templatesfull-width-php #content {
 max-width: 1000px;
 float: left;
