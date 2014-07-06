@@ -33,7 +33,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-<a href="https://liquid-erfurt.org/"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://liquid-erfurt.org/static/img/testbetrieb.png" alt="wir sind im Testbetrieb"></a>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
