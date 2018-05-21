@@ -25,7 +25,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.demokratielabor.net/bootstrap-v2.3.2/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.demokratielabor.net/fonts/roboto-v18/compat.css" />
 
 <?php wp_head(); ?>
 

@@ -18,6 +18,8 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
+<script type="text/javascript" src="https://cdn.demokratielabor.net/bootstrap-v2.3.2/js/bootstrap.min.js"></script>
+
 <?php wp_footer(); ?>
 </body>
 </html>
